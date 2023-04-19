@@ -1,0 +1,57 @@
+/* Page Structure */
+body{background-color:#611711;}
+header,nav{background-color:#611711; text-align: center;}
+main{background-color:#ED382B; padding:18px;}
+footer{text-align: center; color: white;}
+header, footer, nav {padding: 5px;}
+
+/* Navigation */
+#main-nav ul {list-style-type: none; text-align:center; }
+#main-nav li {color: white; display: inline;}
+#main-nav a {color: white; background:#C72F24; padding: 4px; border-radius: 2px; text-align: center;}
+
+/*slideshow*/
+.hidden{display: none;}
+#NewM{margin:auto;}
+
+/*CSCE Video*/
+#tube{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/*See more+See less*/
+#more{display: none;}
+#more-2{display: none;}
+
+/* Typography */
+h1{color: White; text-align:center;}
+
+h2{color: White; text-align: center;}
+
+h3{color: white;}
+
+p{color: White;}
+
+#main-nav a:hover
+{background:grey;}
+li{color: white;}
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Media Query*/
+@media ( min-width: 720px){
+    #content{width: 80%;
+            margin: auto;}
+	
+	#main-nav li, #main-nav a {display:inline;}
+	#main-nav {text-align:center;}
+
+	

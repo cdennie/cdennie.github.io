@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quiz Page</title>
+<meta charset="utf-8"> 
+<!-- Connor Dennie CSCE 102 Section 13 1/18/2023-->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div id="content">
+<header>
+	   <h1>Connor Dennie</h1>
+</header>
+    
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h3>Website Development Quiz</h3>
+        
+        <p>Which of the following is a self enclosing tag?</p>
+			 <select name="question-1" id="1-select">
+				<option value="answer-1"> &lt;table&gt;</option>
+				<option value="answer-2"> &lt;button&gt;</option>
+				<option value="answer-3"> &lt;img&gt;</option>
+				<option value="answer-4"> &lt;header&gt;</option>
+                </select>
+        
+        <p><button onclick ="oneScore();">Check Answer</button></p>
+        <div id = "result"></div> 
+    
+        <p>Which of the following is the correct way to write a fuction in Java?</p>
+			 <select name="question-2" id="2-select">
+				<option value="answer-5"> FUCTION MYfucntion(){ }</option>
+				<option value="answer-6"> fucntion myFunction{ } ()</option>
+				<option value="answer-7"> Function myfunction(){ }</option>
+				<option value="answer-8"> function myFunction(){ }</option>
+                </select>
+        
+        <p><button onclick ="twoScore();">Check Answer</button></p>
+        <div id = "result-2"></div> 
+                
+        <p>In your CSS, how would you style a paragraph with the <b>class</b> of  &ldquo;Flower&rdquo; to have a font color of white?</p>
+			 <select name="question-3" id="3-select">
+				<option value="answer-9"> #Flower {color: white;}</option>
+				<option value="answer-10"> .Flower {color: white;}</option>
+				<option value="answer-11">.flower (color: white;)</option>
+				<option value="answer-12">#flower {color: white;}</option>
+                </select>   
+            
+        <p><button onclick ="threeScore();">Check Answer</button></p>
+        <div id = "result-3"></div> 
+        
+        <p>Which of the following is a Inline Element?</p>
+			 <select name="question-4" id="4-select">
+				<option value="answer-13"> &lt;footer&gt;</option>
+				<option value="answer-14"> &lt;button&gt;</option>
+				<option value="answer-15"> &lt;main&gt;</option>
+				<option value="answer-16"> &lt;table&gt;</option>
+                </select>   
+        
+        <p><button onclick ="fourScore();">Check Answer</button></p>
+        <div id = "result-4"></div> 
+                
+
+    </main>
+
+    <footer>
+        <small><i>Copyright &copy; Connor Dennie</i></small>
+    </footer>
+    </div>
+  
+<script src ="script.js"></script>  
+</body>
+</html>
+
